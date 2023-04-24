@@ -13,8 +13,9 @@ You can use this [link](https://www.getpostman.com/collections/eb59382599d7173ed
 Install nodejs [here] (https://nodejs.org/en/download)
 
 # To Run the application:
-npm install
-export NODE_TLS_REJECT_UNAUTHORIZED=1
-node app.js
+
+1. npm install
+2. export NODE_TLS_REJECT_UNAUTHORIZED=1
+3. node app.js
 
 If not required to connect internet: export NODE_TLS_REJECT_UNAUTHORIZED=0
