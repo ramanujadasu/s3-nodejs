@@ -8,3 +8,13 @@ This repository is the implementation of how to store and download files from S3
 4. Delete a file from the S3 bucket
 
 You can use this [link](https://www.getpostman.com/collections/eb59382599d7173edea6) to import the postman collection
+
+# Instalation steps:
+Install nodejs [here] (https://nodejs.org/en/download)
+
+# To Run the application:
+npm install
+export NODE_TLS_REJECT_UNAUTHORIZED=1
+node app.js
+
+If not required to connect internet: export NODE_TLS_REJECT_UNAUTHORIZED=0
