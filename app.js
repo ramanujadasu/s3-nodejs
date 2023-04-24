@@ -15,6 +15,8 @@ aws.config.update({
     secretAccessKey: process.env.ACCESS_SECRET,
     accessKeyId: process.env.ACCESS_KEY,
     region: process.env.REGION,
+    endpoint: process.env.END_POINT,
+    s3ForcePathStyle: true,
 
 });
 const BUCKET = process.env.BUCKET
